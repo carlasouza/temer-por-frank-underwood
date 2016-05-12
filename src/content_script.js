@@ -35,6 +35,7 @@ function handleText(textNode)
 
   v = v.replace(/\Michel Miguel Elias Temer Lulia\b/g, "Francis J. Underwood");
   v = v.replace(/\Michel Temer\b/g, "Frank Underwood");
+  v = v.replace(/\MichelTemer\b/g, "FrankUnderwood");
   v = v.replace(/\Temer\b/g, "Frank Underwood");
 
   textNode.nodeValue = v;
